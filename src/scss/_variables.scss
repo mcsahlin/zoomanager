@@ -1,0 +1,21 @@
+// Colors
+$primary_clr_light: #606c38;
+$primary_clr_dark: #283618;
+$bg_clr: #fefae0;
+$secondary_clr_light: #3ad073f5;
+$secondary_clr_dark: #f59139;
+
+//#region Box shadow 1
+
+// -webkit-box-shadow
+$bs-webkit: _16px 10px 42px -1px rgba(0, 0, 0, 0.67);
+// -moz-box-shadow:
+$bs-moz: 16px 10px 42px -1px rgba(0, 0, 0, 0.67);
+// box-shadow:
+$bs-box: 16px 10px 42px -1px rgba(0, 0, 0, 0.67);
+
+//#endregion
+
+// Breakpoints
+$tablet_breakpoint: 768px;
+$desktop_breakpoint: 1200px;

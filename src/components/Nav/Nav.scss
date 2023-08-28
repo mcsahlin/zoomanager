@@ -1,0 +1,68 @@
+@use './../../scss/variables' as v;
+header {
+	width: 100%;
+	position: absolute;
+}
+.nav {
+	height: 50px;
+	width: 100%;
+	background-color: black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	&__container {
+		height: 100%;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	img {
+		height: 40px;
+	}
+	&__link {
+		color: #23c3a1;
+		text-align: left;
+		font-size: 2rem;
+		font-weight: 800;
+		span {
+			color: #f8bb30;
+		}
+	}
+	&__zoo {
+		position: absolute;
+		transform: translateX(150px);
+		font-size: 8rem;
+		margin: 3rem;
+		font-weight: 800;
+		letter-spacing: 0.6rem;
+		margin: 5rem;
+		margin-top: 3.5rem;
+		color: orange;
+		span {
+			font-weight: 700;
+			letter-spacing: 0;
+		}
+	}
+	&__logo {
+		width: 7%;
+
+		&--home {
+			@keyframes App-logo-spin {
+				from {
+					transform: rotate(0deg);
+				}
+				to {
+					transform: rotate(360deg);
+				}
+			}
+			&__logo {
+				width: 30%;
+				margin: 0 auto;
+			}
+			// &__menu {
+			// 	display: flex;
+			// }
+		}
+	}
+}
